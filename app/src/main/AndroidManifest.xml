@@ -25,10 +25,6 @@
         android:theme="@style/Theme.OssProj"
         android:usesCleartextTraffic="true">
 
-        <service
-            android:name=".service.WorriorService"
-            android:enabled="true" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -39,6 +35,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name="com.pros.ossproj.service.WorriorService"
+            android:enabled="true" />
     </application>
 
 </manifest>
