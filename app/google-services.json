@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "981238581736",
+    "project_id": "ossproj-bed2d",
+    "storage_bucket": "ossproj-bed2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981238581736:android:73f806b60ba803f1283c5d",
+        "android_client_info": {
+          "package_name": "com.pros.ossproj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981238581736-90imrd3fie7lne9du54al27779mprugo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmqq3neuRyxnM99qE0V7igucCgs0dguuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981238581736-90imrd3fie7lne9du54al27779mprugo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

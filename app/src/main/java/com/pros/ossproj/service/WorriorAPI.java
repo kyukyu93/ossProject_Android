@@ -26,7 +26,8 @@ public class WorriorAPI extends AsyncTask<String, Void, String> {
             url = new URL("http://3.37.76.18:13800/api/tracking"+"?time="+params[0].toString()+"&accuracy="+params[1].toString()+"&latitude="+params[2].toString()+"&longitude="+params[3].toString());
             // 서버 URL
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-            conn.setRequestMethod("GET");
+            conn.setRequestMethod("POST");
+            //conn.setRequestMethod("GET");
             conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded;charset=UTF-8");
             conn.setRequestProperty("WorriorAuthKey", authKey);
             if (conn.getResponseCode() == conn.HTTP_OK) {
