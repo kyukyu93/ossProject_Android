@@ -22,8 +22,8 @@ public class ProsFCMService extends FirebaseMessagingService {
     private static final String TAG = "MyFirebaseMsgService";
 
     //푸시 알림 설정
-    private String title ="";
-    private String body ="";
+    private String title ="나도 설마?";
+    private String body ="경로를 확인하세요";
     private String color ="#f45342";
 
 
